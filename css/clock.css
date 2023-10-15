@@ -1,0 +1,7 @@
+.clock-box {
+  font-size: 70px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom: 3px solid black;
+}

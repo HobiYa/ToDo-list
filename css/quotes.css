@@ -1,0 +1,16 @@
+#quote {
+  font-size: 35px;
+  padding: 20px 0px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote span {
+  display: flex;
+  justify-content: center;
+}
+
+#quote span:last-child {
+  margin-top: 10px;
+}

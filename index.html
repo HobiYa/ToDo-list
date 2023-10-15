@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Js-ToDoHomepage</title>
+</head>
+
+<body>
+  <img class="bgimg">
+  <header>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <main>
+    <div class="login-box">
+      <form id="login-form" class="hidden">
+        <input required maxlength="10" type="text" placeholder="당신의 이름을 적어주세요." /><br />
+        <button type="submit">로그인</button>
+      </form>
+      <h1 id="hello" class="hidden"></h1>
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div class="D-day">
+      <h1>D-day</h1>
+      <div class="D-day-name">
+        <p>크리스마스</p>
+        <h2 class="D-day__list"></h2>
+      </div>
+      <div class="D-day-name">
+        <p>새해</p>
+        <h2 class="D-day__list2"></h2>
+      </div>
+      <div class="D-day-name">
+        <p>설날</p>
+        <h2 class="D-day__list3"></h2>
+      </div>
+      <div class="D-day-name">
+        <p>취준</p>
+        <h2 class="D-day__list4">??D_DAY</h2>
+      </div>
+
+    </div>
+
+    <div class="todo-box">
+      <form class="todo-form">
+        <input type="text" placeholder="오늘 할일을 입력하세요" required />
+      </form>
+      <ul class="todo-list"></ul>
+    </div>
+
+    <div class="homepage-box">
+      <h2>--홈페이지 바로가기--</h2>
+      <div class="chrome">
+        <a href="https://google.com" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="">
+        </a>
+      </div>
+      <div class="naver">
+        <a href="https://naver.com" target="_blank">
+          <img
+            src="https://play-lh.googleusercontent.com/Kbu0747Cx3rpzHcSbtM1zDriGFG74zVbtkPmVnOKpmLCS59l7IuKD5M3MKbaq_nEaZM=s256-rw"
+            alt="">
+        </a>
+      </div>
+      <div class="youtube">
+        <a href="https://youtube.com" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="">
+        </a>
+      </div>
+      <div class="nomad">
+        <a href="https://nomadcoders.co" target="_blank">
+          <img src="https://nomadcoders.co/m.svg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="clock-box">
+      <h1 id="clock">00:00:00</h1>
+    </div>
+
+    <div class="youtube-box">
+      <iframe width="400" height="255" src="https://www.youtube.com/embed/ThGbP9wgkz8?si=9TPHpdujQmZzGwXs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="weather">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+  </main>
+  </div>
+  <script src="js/login.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/Dday.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/background.js"></script>
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

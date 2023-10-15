@@ -1,0 +1,49 @@
+.D-day {
+  width: 400px;
+  height: 500px;
+  background-color: pink;
+  position: absolute;
+  top: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-left: 10px;
+}
+
+.D-day h1 {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 25%;
+  margin-bottom: 10px;
+  font-size: 50px;
+  border-radius: 30px;
+  border: 3px solid black;
+}
+
+.D-day-name:hover,
+.D-day h1:hover {
+  box-shadow: 3px 2px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.D-day-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 0px;
+}
+
+.D-day-name p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.D-day__list,
+.D-day__list2,
+.D-day__list3,
+.D-day__list4 {
+  font-size: 40px;
+}

@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+.login-box {
+  width: 400px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #ffff99;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#hello {
+  margin-bottom: 10px;
+}
+
+#hello,
+#greeting {
+  font-size: 45px;
+  text-align: center;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form input {
+  border: none;
+  font-size: 25px;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form button {
+  font-size: 25px;
+  border-radius: 50px;
+  border: 2px solid black;
+  border: none;
+  margin-top: 15px;
+}
+
+#login-form button:hover {
+  box-shadow: 3px 2px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
